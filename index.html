@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link id="favicon" rel="shortcut icon" type="image/png" href="app.png">
+		<title>Aaron.app</title>
+	</head>
+	<body>
+		<script>
+			var path = './';
+				var fs = require('fs');
+
+				var reloadWatcher=fs.watch(path, function() {
+				location.reload();
+				reloadWatcher.close();
+			});
+		</script>
+		<div>
+			<a id="login" href="login.html">Login</a>
+		</div>
+		<br>
+		<script src="get_content.js"></script>
+		<input id="command" onkeydown = "if (event.keyCode == 13) document.getElementById('ok').click()" autofocus></input>
+		<button id="ok" onclick="getContent ()">OK</button>
+		<pre id="id"></pre>
+		<script src="get_id.js"></script>
+		<script>
+			getId ();
+		</script>
+		<pre id="output"></pre>
+	</body>
+</html>

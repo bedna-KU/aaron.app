@@ -1,0 +1,11 @@
+{
+	"name": "Aaron.app",
+	"main": "index.html",
+	"window": {
+		"icon": "app.png",
+		"width": 500,
+		"height": 600
+	}
+}
+
+
