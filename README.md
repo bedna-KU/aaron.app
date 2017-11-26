@@ -1,5 +1,6 @@
 # aaron.client
 Cross-platform client for kernelultras.org API - proof of concept
+![Aaron.client](https://github.com/bedna-KU/aaron.client/blob/master/screenshot.jpg)
 
 (Linux, MacOS, MS Windows)
 
