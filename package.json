@@ -1,11 +1,14 @@
 {
-	"name": "Aaron.app",
-	"main": "index.html",
-	"window": {
-		"icon": "app.png",
-		"width": 500,
-		"height": 600
-	}
+    "app_name": "Aaron.client",
+    "description": "Cross-platform application for work with kernelultras.org API - proof of concept",
+    "main": "index.html",
+    "name": "Aaron.client",
+    "window": {
+        "height": 600,
+        "icon": "app.png",
+        "id": "Aaron.client",
+        "title": "Aaron.client",
+        "toolbar": true,
+        "width": 700
+    }
 }
-
-
