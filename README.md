@@ -8,6 +8,8 @@ Web https://kernelultras.org
 
 API https://kernelultras.org/API.php
 
+API example https://kernelultras.org/API.php?shell=help
+
 ### Dependency
 nw.js   https://nwjs.io/
 
